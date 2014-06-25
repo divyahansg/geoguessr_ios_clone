@@ -1,7 +1,7 @@
 geoguessr_ios_clone
 ===================
 
-geoguessr.com clone for ios
+[geoguessr.com](http://geoguessr.com) clone for ios
 
 
 ![Screenshot](http://i.imgur.com/4WA6Jab.png)
