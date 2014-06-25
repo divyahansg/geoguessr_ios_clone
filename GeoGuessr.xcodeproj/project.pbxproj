@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE714770195A8BDF00673E39 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE71476F195A8BDF00673E39 /* AnswerViewController.m */; };
+		EE714772195A8CA400673E39 /* AnswerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE714771195A8CA400673E39 /* AnswerViewController.xib */; };
+		EEB506DF1959425000A83460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB506DE1959425000A83460 /* Foundation.framework */; };
+		EEB506E11959425000A83460 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB506E01959425000A83460 /* CoreGraphics.framework */; };
+		EEB506E31959425000A83460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB506E21959425000A83460 /* UIKit.framework */; };
+		EEB506E91959425000A83460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB506E71959425000A83460 /* InfoPlist.strings */; };
+		EEB506EB1959425000A83460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB506EA1959425000A83460 /* main.m */; };
+		EEB506EF1959425000A83460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB506EE1959425000A83460 /* AppDelegate.m */; };
+		EEB506F11959425000A83460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB506F01959425000A83460 /* Images.xcassets */; };
+		EEB506F81959425000A83460 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB506F71959425000A83460 /* XCTest.framework */; };
+		EEB506F91959425000A83460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB506DE1959425000A83460 /* Foundation.framework */; };
+		EEB506FA1959425000A83460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB506E21959425000A83460 /* UIKit.framework */; };
+		EEB507021959425000A83460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB507001959425000A83460 /* InfoPlist.strings */; };
+		EEB507041959425000A83460 /* GeoGuessrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB507031959425000A83460 /* GeoGuessrTests.m */; };
+		EEB5070E195943A100A83460 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5070D195943A100A83460 /* GoogleMaps.framework */; };
+		EEB50710195943D900A83460 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEB5070F195943D900A83460 /* GoogleMaps.bundle */; };
+		EEB507121959440300A83460 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507111959440300A83460 /* AVFoundation.framework */; };
+		EEB507141959440D00A83460 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507131959440D00A83460 /* CoreData.framework */; };
+		EEB507161959441700A83460 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507151959441700A83460 /* CoreLocation.framework */; };
+		EEB507181959442000A83460 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507171959442000A83460 /* CoreText.framework */; };
+		EEB5071A1959442C00A83460 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507191959442C00A83460 /* GLKit.framework */; };
+		EEB5071C1959443700A83460 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5071B1959443700A83460 /* ImageIO.framework */; };
+		EEB5071E1959444400A83460 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5071D1959444400A83460 /* libc++.dylib */; };
+		EEB507201959445400A83460 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5071F1959445400A83460 /* libicucore.dylib */; };
+		EEB507221959445C00A83460 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507211959445C00A83460 /* libz.dylib */; };
+		EEB507241959446300A83460 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507231959446300A83460 /* OpenGLES.framework */; };
+		EEB507261959446900A83460 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507251959446900A83460 /* QuartzCore.framework */; };
+		EEB507281959447100A83460 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB507271959447100A83460 /* SystemConfiguration.framework */; };
+		EEB5072B1959455300A83460 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5072A1959455300A83460 /* MapViewController.m */; };
+		EEB5072D1959479900A83460 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5072C1959479900A83460 /* MapViewController.xib */; };
+		EEB50730195A481F00A83460 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5072F195A481F00A83460 /* HomeViewController.m */; };
+		EEB50734195A486E00A83460 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB50733195A486E00A83460 /* HomeViewController.xib */; };
+		EEB50737195A54EA00A83460 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEB50735195A54EA00A83460 /* Model.xcdatamodeld */; };
+		EEF63107195A5A0B003EF3A2 /* CoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF63106195A5A0B003EF3A2 /* CoreDataStore.m */; };
+		EEF6310D195A6001003EF3A2 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF6310C195A6001003EF3A2 /* Score.m */; };
+		EEF6310F195A6E9D003EF3A2 /* ScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF6310E195A6E9D003EF3A2 /* ScoreTableViewCell.xib */; };
+		EEF63112195A6FFC003EF3A2 /* ScoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF63111195A6FFC003EF3A2 /* ScoreTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB506FB1959425000A83460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB506D31959425000A83460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB506DA1959425000A83460;
+			remoteInfo = GeoGuessr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE71476E195A8BDF00673E39 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		EE71476F195A8BDF00673E39 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		EE714771195A8CA400673E39 /* AnswerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerViewController.xib; sourceTree = "<group>"; };
+		EEB506DB1959425000A83460 /* GeoGuessr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGuessr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB506DE1959425000A83460 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEB506E01959425000A83460 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEB506E21959425000A83460 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEB506E61959425000A83460 /* GeoGuessr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoGuessr-Info.plist"; sourceTree = "<group>"; };
+		EEB506E81959425000A83460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEB506EA1959425000A83460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEB506EC1959425000A83460 /* GeoGuessr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoGuessr-Prefix.pch"; sourceTree = "<group>"; };
+		EEB506ED1959425000A83460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEB506EE1959425000A83460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEB506F01959425000A83460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEB506F61959425000A83460 /* GeoGuessrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoGuessrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB506F71959425000A83460 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EEB506FF1959425000A83460 /* GeoGuessrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoGuessrTests-Info.plist"; sourceTree = "<group>"; };
+		EEB507011959425000A83460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEB507031959425000A83460 /* GeoGuessrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoGuessrTests.m; sourceTree = "<group>"; };
+		EEB5070D195943A100A83460 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		EEB5070F195943D900A83460 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		EEB507111959440300A83460 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EEB507131959440D00A83460 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EEB507151959441700A83460 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EEB507171959442000A83460 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EEB507191959442C00A83460 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EEB5071B1959443700A83460 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EEB5071D1959444400A83460 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		EEB5071F1959445400A83460 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		EEB507211959445C00A83460 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EEB507231959446300A83460 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EEB507251959446900A83460 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EEB507271959447100A83460 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EEB507291959455300A83460 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EEB5072A1959455300A83460 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EEB5072C1959479900A83460 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		EEB5072E195A481F00A83460 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EEB5072F195A481F00A83460 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EEB50733195A486E00A83460 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../HomeViewController.xib; sourceTree = "<group>"; };
+		EEB50736195A54EA00A83460 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EEF63105195A5A0B003EF3A2 /* CoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStore.h; sourceTree = "<group>"; };
+		EEF63106195A5A0B003EF3A2 /* CoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStore.m; sourceTree = "<group>"; };
+		EEF6310B195A6001003EF3A2 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		EEF6310C195A6001003EF3A2 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		EEF6310E195A6E9D003EF3A2 /* ScoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreTableViewCell.xib; sourceTree = "<group>"; };
+		EEF63110195A6FFC003EF3A2 /* ScoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTableViewCell.h; sourceTree = "<group>"; };
+		EEF63111195A6FFC003EF3A2 /* ScoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB506D81959425000A83460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB507281959447100A83460 /* SystemConfiguration.framework in Frameworks */,
+				EEB507261959446900A83460 /* QuartzCore.framework in Frameworks */,
+				EEB507241959446300A83460 /* OpenGLES.framework in Frameworks */,
+				EEB507221959445C00A83460 /* libz.dylib in Frameworks */,
+				EEB507201959445400A83460 /* libicucore.dylib in Frameworks */,
+				EEB5071E1959444400A83460 /* libc++.dylib in Frameworks */,
+				EEB5071C1959443700A83460 /* ImageIO.framework in Frameworks */,
+				EEB5071A1959442C00A83460 /* GLKit.framework in Frameworks */,
+				EEB507181959442000A83460 /* CoreText.framework in Frameworks */,
+				EEB507161959441700A83460 /* CoreLocation.framework in Frameworks */,
+				EEB507141959440D00A83460 /* CoreData.framework in Frameworks */,
+				EEB507121959440300A83460 /* AVFoundation.framework in Frameworks */,
+				EEB506E11959425000A83460 /* CoreGraphics.framework in Frameworks */,
+				EEB506E31959425000A83460 /* UIKit.framework in Frameworks */,
+				EEB5070E195943A100A83460 /* GoogleMaps.framework in Frameworks */,
+				EEB506DF1959425000A83460 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB506F31959425000A83460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB506F81959425000A83460 /* XCTest.framework in Frameworks */,
+				EEB506FA1959425000A83460 /* UIKit.framework in Frameworks */,
+				EEB506F91959425000A83460 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB506D21959425000A83460 = {
+			isa = PBXGroup;
+			children = (
+				EEB506E41959425000A83460 /* GeoGuessr */,
+				EEB506FD1959425000A83460 /* GeoGuessrTests */,
+				EEB506DD1959425000A83460 /* Frameworks */,
+				EEB506DC1959425000A83460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB506DC1959425000A83460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB506DB1959425000A83460 /* GeoGuessr.app */,
+				EEB506F61959425000A83460 /* GeoGuessrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB506DD1959425000A83460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB507271959447100A83460 /* SystemConfiguration.framework */,
+				EEB507251959446900A83460 /* QuartzCore.framework */,
+				EEB507231959446300A83460 /* OpenGLES.framework */,
+				EEB507211959445C00A83460 /* libz.dylib */,
+				EEB5071F1959445400A83460 /* libicucore.dylib */,
+				EEB5071D1959444400A83460 /* libc++.dylib */,
+				EEB5071B1959443700A83460 /* ImageIO.framework */,
+				EEB507191959442C00A83460 /* GLKit.framework */,
+				EEB507171959442000A83460 /* CoreText.framework */,
+				EEB507151959441700A83460 /* CoreLocation.framework */,
+				EEB507131959440D00A83460 /* CoreData.framework */,
+				EEB507111959440300A83460 /* AVFoundation.framework */,
+				EEB5070F195943D900A83460 /* GoogleMaps.bundle */,
+				EEB5070D195943A100A83460 /* GoogleMaps.framework */,
+				EEB506DE1959425000A83460 /* Foundation.framework */,
+				EEB506E01959425000A83460 /* CoreGraphics.framework */,
+				EEB506E21959425000A83460 /* UIKit.framework */,
+				EEB506F71959425000A83460 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB506E41959425000A83460 /* GeoGuessr */ = {
+			isa = PBXGroup;
+			children = (
+				EEB506ED1959425000A83460 /* AppDelegate.h */,
+				EEB506EE1959425000A83460 /* AppDelegate.m */,
+				EEB507291959455300A83460 /* MapViewController.h */,
+				EEB5072A1959455300A83460 /* MapViewController.m */,
+				EEB5072C1959479900A83460 /* MapViewController.xib */,
+				EE71476E195A8BDF00673E39 /* AnswerViewController.h */,
+				EE71476F195A8BDF00673E39 /* AnswerViewController.m */,
+				EE714771195A8CA400673E39 /* AnswerViewController.xib */,
+				EEB5072E195A481F00A83460 /* HomeViewController.h */,
+				EEB5072F195A481F00A83460 /* HomeViewController.m */,
+				EEB50733195A486E00A83460 /* HomeViewController.xib */,
+				EEF6310E195A6E9D003EF3A2 /* ScoreTableViewCell.xib */,
+				EEF63110195A6FFC003EF3A2 /* ScoreTableViewCell.h */,
+				EEF63111195A6FFC003EF3A2 /* ScoreTableViewCell.m */,
+				EEF6310B195A6001003EF3A2 /* Score.h */,
+				EEF6310C195A6001003EF3A2 /* Score.m */,
+				EEB50735195A54EA00A83460 /* Model.xcdatamodeld */,
+				EEF63105195A5A0B003EF3A2 /* CoreDataStore.h */,
+				EEF63106195A5A0B003EF3A2 /* CoreDataStore.m */,
+				EEB506F01959425000A83460 /* Images.xcassets */,
+				EEB506E51959425000A83460 /* Supporting Files */,
+			);
+			path = GeoGuessr;
+			sourceTree = "<group>";
+		};
+		EEB506E51959425000A83460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB506E61959425000A83460 /* GeoGuessr-Info.plist */,
+				EEB506E71959425000A83460 /* InfoPlist.strings */,
+				EEB506EA1959425000A83460 /* main.m */,
+				EEB506EC1959425000A83460 /* GeoGuessr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB506FD1959425000A83460 /* GeoGuessrTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB507031959425000A83460 /* GeoGuessrTests.m */,
+				EEB506FE1959425000A83460 /* Supporting Files */,
+			);
+			path = GeoGuessrTests;
+			sourceTree = "<group>";
+		};
+		EEB506FE1959425000A83460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB506FF1959425000A83460 /* GeoGuessrTests-Info.plist */,
+				EEB507001959425000A83460 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB506DA1959425000A83460 /* GeoGuessr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB507071959425000A83460 /* Build configuration list for PBXNativeTarget "GeoGuessr" */;
+			buildPhases = (
+				EEB506D71959425000A83460 /* Sources */,
+				EEB506D81959425000A83460 /* Frameworks */,
+				EEB506D91959425000A83460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoGuessr;
+			productName = GeoGuessr;
+			productReference = EEB506DB1959425000A83460 /* GeoGuessr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB506F51959425000A83460 /* GeoGuessrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB5070A1959425000A83460 /* Build configuration list for PBXNativeTarget "GeoGuessrTests" */;
+			buildPhases = (
+				EEB506F21959425000A83460 /* Sources */,
+				EEB506F31959425000A83460 /* Frameworks */,
+				EEB506F41959425000A83460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB506FC1959425000A83460 /* PBXTargetDependency */,
+			);
+			name = GeoGuessrTests;
+			productName = GeoGuessrTests;
+			productReference = EEB506F61959425000A83460 /* GeoGuessrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB506D31959425000A83460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Divyahans Gupta";
+				TargetAttributes = {
+					EEB506F51959425000A83460 = {
+						TestTargetID = EEB506DA1959425000A83460;
+					};
+				};
+			};
+			buildConfigurationList = EEB506D61959425000A83460 /* Build configuration list for PBXProject "GeoGuessr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEB506D21959425000A83460;
+			productRefGroup = EEB506DC1959425000A83460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB506DA1959425000A83460 /* GeoGuessr */,
+				EEB506F51959425000A83460 /* GeoGuessrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB506D91959425000A83460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF6310F195A6E9D003EF3A2 /* ScoreTableViewCell.xib in Resources */,
+				EEB50710195943D900A83460 /* GoogleMaps.bundle in Resources */,
+				EEB506E91959425000A83460 /* InfoPlist.strings in Resources */,
+				EEB50734195A486E00A83460 /* HomeViewController.xib in Resources */,
+				EEB506F11959425000A83460 /* Images.xcassets in Resources */,
+				EE714772195A8CA400673E39 /* AnswerViewController.xib in Resources */,
+				EEB5072D1959479900A83460 /* MapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB506F41959425000A83460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB507021959425000A83460 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB506D71959425000A83460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF63107195A5A0B003EF3A2 /* CoreDataStore.m in Sources */,
+				EEB5072B1959455300A83460 /* MapViewController.m in Sources */,
+				EEB506EF1959425000A83460 /* AppDelegate.m in Sources */,
+				EEB50737195A54EA00A83460 /* Model.xcdatamodeld in Sources */,
+				EEF6310D195A6001003EF3A2 /* Score.m in Sources */,
+				EEB506EB1959425000A83460 /* main.m in Sources */,
+				EEF63112195A6FFC003EF3A2 /* ScoreTableViewCell.m in Sources */,
+				EE714770195A8BDF00673E39 /* AnswerViewController.m in Sources */,
+				EEB50730195A481F00A83460 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB506F21959425000A83460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB507041959425000A83460 /* GeoGuessrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB506FC1959425000A83460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB506DA1959425000A83460 /* GeoGuessr */;
+			targetProxy = EEB506FB1959425000A83460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB506E71959425000A83460 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB506E81959425000A83460 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEB507001959425000A83460 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB507011959425000A83460 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB507051959425000A83460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEB507061959425000A83460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB507081959425000A83460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoGuessr/GeoGuessr-Prefix.pch";
+				INFOPLIST_FILE = "GeoGuessr/GeoGuessr-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEB507091959425000A83460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoGuessr/GeoGuessr-Prefix.pch";
+				INFOPLIST_FILE = "GeoGuessr/GeoGuessr-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EEB5070B1959425000A83460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoGuessr.app/GeoGuessr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoGuessr/GeoGuessr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeoGuessrTests/GeoGuessrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EEB5070C1959425000A83460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoGuessr.app/GeoGuessr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoGuessr/GeoGuessr-Prefix.pch";
+				INFOPLIST_FILE = "GeoGuessrTests/GeoGuessrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB506D61959425000A83460 /* Build configuration list for PBXProject "GeoGuessr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB507051959425000A83460 /* Debug */,
+				EEB507061959425000A83460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB507071959425000A83460 /* Build configuration list for PBXNativeTarget "GeoGuessr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB507081959425000A83460 /* Debug */,
+				EEB507091959425000A83460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB5070A1959425000A83460 /* Build configuration list for PBXNativeTarget "GeoGuessrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB5070B1959425000A83460 /* Debug */,
+				EEB5070C1959425000A83460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEB50735195A54EA00A83460 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEB50736195A54EA00A83460 /* Model.xcdatamodel */,
+			);
+			currentVersion = EEB50736195A54EA00A83460 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEB506D31959425000A83460 /* Project object */;
+}
